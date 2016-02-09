@@ -214,9 +214,11 @@ function create_config( )
     "inpm",
     "banhammer",
     "stats",
+    "addplugin",
     "anti_spam",
     "owners",
     "arabic_lock",
+    
     "set",
     "get",
     "broadcast",
@@ -226,7 +228,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(181742153)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
